@@ -1,0 +1,30 @@
+-Fix links to your Resume, GitHub, LinkedIn, etc. at the top where they're always accessible. 
+Link to everything here - and then remove all other links on your Resume except your Portfolio link. 
+It saves space, and is easier to maintain.
+
+-I know there's lots of slick icons for the various tech stack right now - 
+and you're welcome to include those, but make sure you also include a plain-text label 
+with the icon in case a visitor/hiring-manager does a Ctrl+F search for a keyword.
+ 
+-An introductory Bio is always great to have. 
+There's lots of different approaches to writing one, but use it as an opportunity to 
+reaffirm your passion, your skill, and also showcase your personality.
+
+-Visually summarize and quantify all the stuff that you've done so it stands out. 
+Don't let those open-source contributions get diluted! 
+This kind of stuff will get you a double-take from the hiring manager.
+
+-Showcase your projects, with brief write-ups/lessons learned and link to their GitHubs or 
+where they are hosted online. List anything that showcases your talent: 
+class projects, personal projects, even link to your own portfolio as a project.
+
+-I'm calling this out separately because it's so important: 
+call out the tech stack for each project.
+
+-Finally: As a hiring manager, it's impossible to easily know if your site is up to date. 
+Maybe you are no longer looking for a job, maybe you're no longer interested in React roles, 
+maybe your site presents you as a Jr but now you are a Senior. For that reason, 
+a simple time-stamped update that updates visitors on what you're doing can be incredibly helpful 
+at telling the hiring manager your entire website is up to date.
+
+adapted from: https://blog.alishahnovin.com/2022/01/7-steps-to-building-your-portfolio-mvp.html
