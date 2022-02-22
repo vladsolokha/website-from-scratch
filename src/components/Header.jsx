@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
-import Icon from '../assets/vs-myemoji-head.png'
-import {FaLinkedin, FaGitSquare} from 'react-icons/fa'
+import Icon from '../assets/vs-myemoji-head.gif'
+import {FaLinkedin, FaGithubSquare} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
     <div className="header">
         <div className="icon-name-container">
             <div className="icon">
-                <img src={Icon} alt='head icon'/>
+                <img src={Icon} alt='head icon my emoji'/>
             </div>
 
             <div className="title">
@@ -34,12 +34,10 @@ function Header() {
             target="_blank"
             rel="noreferrer"
             className="fa-github">
-            <FaGitSquare /> 
+            <FaGithubSquare /> 
           </a>
           <a 
             href="emailto:vsolokha@gmail.com"
-            target="_blank"
-            rel="noreferrer"
             className="fa-email">
             <HiOutlineMail /> 
           </a>
