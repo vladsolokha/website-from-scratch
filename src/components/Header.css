@@ -24,7 +24,7 @@ h2 {
 .icon img {
     width: 45px;
     border-radius: 50%;
-    box-shadow: var(--close-shadow-black );
+    filter: var(--black-drop-mid);
     background: var(--fish-color);
 }
 
@@ -38,17 +38,16 @@ h2 {
 } 
 
 .fa-links a {
-    background: var(--fish-color);
+    background: transparent;
     color: var(--gunmetal);
-    box-shadow: var(--mid-shadow-black);
-    transition-property: box-shadow, color; 
-    transition-duration: 1s;
+    filter: var(--blue-drop-mid);
+    transition-property: filter, color; 
+    transition-duration: 0.6s;
     transition-timing-function: cubic-bezier(.41,1.22,.46,.6);
 }
 
 
-
 a:hover, a:focus {
     color: var(--orange-color);
-    box-shadow: var(--elevated-shadow-black);
+    filter: var(--black-drop-far);
 }

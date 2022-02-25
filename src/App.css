@@ -6,75 +6,51 @@
   --pur-color: hsl(248, 12%, 64%);
   --fish-color: hsl(260, 9%, 87%);
   --gunmetal: hsl(185, 13%, 18%);
-  --gradient: linear-gradient(to bottom, hsl(207, 70%, 58%), hsl(260, 9%, 87%));
---elevated-shadow-blue: 
-  1px 2px 2px hsl(212, 59%, 70% / 0.058),
-  2px 4px 4px hsl(212, 59%, 70% / 0.105),
-  4px 8px 8px hsl(212, 59%, 70% / 0.172),
-  8px 16px 16px hsl(212, 59%, 70% / 0.3);
---elevated-shadow-black: 
-  1px 2px 2px rgba(0,0,0, 0.058),
-  2px 4px 4px rgba(0,0,0, 0.105),
-  4px 8px 8px rgba(0,0,0, 0.172),
-  8px 16px 16px rgba(0,0,0, 0.3);
 
-  --mid-shadow-blue:
-  1px 2px 2px hsl(212, 59%, 70% / 0.333),
-  2px 4px 5px hsl(212, 59%, 70% / 0.333),
-  3px 6px 8px hsl(212, 59%, 70% / 0.333);
+  
+  --blue-layer1:  1px 2px 2px hsla(212, 59%, 40%, 0.2);
+  --blue-layer2:  2px 3px 3px hsl(212, 78%, 40%, 0.4);
+  --blue-layer3:  3px 4px 4px hsl(212, 59%, 40%, 0.6);
+  --blue-layer4:  4px 8px 8px hsl(212, 59%, 40%, 0.7);
+  --blue-layer5:  8px 16px 16px hsl(212, 59%, 40%, 0.8);
 
-  --mid-shadow-black:
-  1px 2px 2px rgba(0,0,0,0.5),
-  2px 4px 5px rgba(0,0,0,0.7),
-  3px 6px 8px rgba(0,0,0,0.9);
+  --layer1: 1px 2px 2px rgba(0,0,0, 0.2);
+  --layer2: 2px 3px 3px rgba(0,0,0, 0.3);
+  --layer3: 3px 4px 4px rgba(0,0,0, 0.2);
+  --layer4: 4px 8px 8px rgba(0,0,0, 0.4);
+  --layer5: 8px 16px 16px rgba(0,0,0, 0.8);
 
-  --close-shadow-blue: 
-  0.5px 1px 4px hsl(212, 59%, 70% / 0.058),
-  1px 1.5px 8px hsl(212, 59%, 70% / 0.058);
+  --blue-drop-close: 
+      drop-shadow(var(--blue-layer1))
+      drop-shadow(var(--blue-layer3));
+  --blue-drop-mid: 
+      drop-shadow(var(--blue-layer1))
+      drop-shadow(var(--blue-layer2))
+      drop-shadow(var(--blue-layer4));
+  --blue-drop-far: 
+      drop-shadow(var(--blue-layer1))
+      drop-shadow(var(--blue-layer2))
+      drop-shadow(var(--blue-layer3))
+      drop-shadow(var(--blue-layer4))
+      drop-shadow(var(--blue-layer5));
 
-  --close-shadow-black: 
-  0.5px 1px 4px rgba(0, 0, 0, 0.43),
-  1px 1.5px 8px rgba(0, 0, 0, 1);
-
+  --black-drop-close: 
+      drop-shadow(var(--layer1))
+      drop-shadow(var(--layer3));
+  --black-drop-mid: 
+      drop-shadow(var(--layer1))
+      drop-shadow(var(--layer2))
+      drop-shadow(var(--layer4));
+  --black-drop-far: 
+      drop-shadow(var(--layer1))
+      drop-shadow(var(--layer2))
+      drop-shadow(var(--layer3))
+      drop-shadow(var(--layer4))
+      drop-shadow(var(--layer5));
 }
 
 .App {
   font-family: 'PT Mono', monospace;
   text-align: center;
   margin: 0;
-}
-
-@keyframes opacity-easeOutElastic {
-	0% {
-		opacity: 1;
-	}
-
-	16% {
-		opacity: -0.32;
-	}
-
-	28% {
-		opacity: 0.13;
-	}
-
-	44% {
-		opacity: -0.05;
-	}
-
-	59% {
-		opacity: 0.02;
-	}
-
-	73% {
-		opacity: -0.01;
-	}
-
-	88% {
-		opacity: 0;
-	}
-
-	100% {
-		opacity: 0;
-	}
-
 }
