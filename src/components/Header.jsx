@@ -1,15 +1,18 @@
 import React from 'react'
 import './Header.css'
-import Icon from '../assets/vs-myemoji-head.gif'
-import {FaLinkedin, FaGithubSquare} from 'react-icons/fa'
-import {HiOutlineMail} from 'react-icons/hi'
+import MyEmoji from '../assets/vs-myemoji-head.gif'
+import { Linkedin, Github, Gmail } from '@icons-pack/react-simple-icons'
 
 function Header() {
+  const linkedIn = <Linkedin title='LinkedIn Icon' size={24} />
+  const github =  <Github  title='Github Icon' size={24} />
+  const mail =  <Gmail  title='Gmail Icon' size={24} />
+  
   return (
     <div className="header">
         <div className="icon-name-container">
             <div className="icon">
-                <img src={Icon} alt='head icon my emoji'/>
+                <img src={MyEmoji} alt='head icon my emoji'/>
             </div>
 
             <div className="title">
@@ -27,19 +30,19 @@ function Header() {
             target="_blank"
             rel="noreferrer"
             className="fa-linkedin">
-            <FaLinkedin /> 
+            {linkedIn}
           </a>
           <a 
             href="https://github.com/vladsolokha"
             target="_blank"
             rel="noreferrer"
             className="fa-github">
-            <FaGithubSquare /> 
+            {github} 
           </a>
           <a 
             href="emailto:vsolokha@gmail.com"
             className="fa-email">
-            <HiOutlineMail /> 
+            {mail}
           </a>
         </div>
 

@@ -40,7 +40,7 @@ h2 {
 .fa-links a {
     background: transparent;
     color: var(--gunmetal);
-    filter: var(--blue-drop-mid);
+    filter: var(--black-drop-close);
     transition-property: filter, color; 
     transition-duration: 0.6s;
     transition-timing-function: cubic-bezier(.41,1.22,.46,.6);

@@ -3,7 +3,7 @@ import {IoCaretDownCircleSharp, IoCaretUpCircleSharp} from 'react-icons/io5'
 import './AboutMe.css'
 
 export default function AboutMe() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   
   return (
     <div className='main'>
