@@ -9,9 +9,13 @@
 }
 
 .story, .more-story {
+    justify-items: center;
     text-align: left;
+    margin:auto;
+    max-width: 70%;
 }
 
+ /* This is the button that opens and closes the text */
 .more, .close-more {
     margin: auto;
     max-width: 200px;

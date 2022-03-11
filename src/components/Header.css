@@ -37,8 +37,7 @@ h2 {
     font-size: 2.5em;
 } 
 
-.fa-links a {
-    background: transparent;
+a {
     color: var(--gunmetal);
     filter: var(--black-drop-close);
     transition-property: filter, color; 

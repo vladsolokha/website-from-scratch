@@ -4,9 +4,9 @@ import MyEmoji from '../assets/vs-myemoji-head.gif'
 import { Linkedin, Github, Gmail } from '@icons-pack/react-simple-icons'
 
 function Header() {
-  const linkedIn = <Linkedin title='LinkedIn Icon' size={24} />
-  const github =  <Github  title='Github Icon' size={24} />
-  const mail =  <Gmail  title='Gmail Icon' size={24} />
+  const linkedIn = <Linkedin title='LinkedIn Icon' size={42} />
+  const github =  <Github  title='Github Icon' size={42} />
+  const mail =  <Gmail  title='Gmail Icon' size={42} />
   
   return (
     <div className="header">

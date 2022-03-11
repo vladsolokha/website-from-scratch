@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Mono&display=swap');
 
 :root {
-  --high-blue: hsl(212, 59%, 70%);
-  --orange-color: hsl(27, 70%, 58%);
+  --high-blue: hsl(212, 59%, 70%, 0.8);
+  --orange-color: hsl(27, 70%, 58%, 0.9);
   --pur-color: hsl(248, 12%, 64%);
   --fish-color: hsl(260, 9%, 87%);
   --gunmetal: hsl(185, 13%, 18%);
@@ -52,5 +52,6 @@
 .App {
   font-family: 'PT Mono', monospace;
   text-align: center;
-  margin: 0;
+  margin: auto;
+  
 }
