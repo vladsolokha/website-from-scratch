@@ -1,4 +1,57 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Mono&display=swap');
+
+:root {
+  --high-blue: hsl(212, 59%, 70%, 0.8);
+  --orange-color: hsl(27, 70%, 58%, 0.9);
+  --pur-color: hsl(248, 12%, 64%);
+  --fish-color: hsl(260, 9%, 87%);
+  --gunmetal: hsl(185, 13%, 18%);
+
+  
+  --blue-layer1:  1px 2px 2px hsla(212, 59%, 40%, 0.2);
+  --blue-layer2:  2px 3px 3px hsl(212, 78%, 40%, 0.4);
+  --blue-layer3:  3px 4px 4px hsl(212, 59%, 40%, 0.6);
+  --blue-layer4:  4px 8px 8px hsl(212, 59%, 40%, 0.7);
+  --blue-layer5:  8px 16px 16px hsl(212, 59%, 40%, 0.8);
+
+  --layer1: 1px 2px 2px rgba(0,0,0, 0.2);
+  --layer2: 2px 3px 3px rgba(0,0,0, 0.3);
+  --layer3: 3px 4px 4px rgba(0,0,0, 0.2);
+  --layer4: 4px 8px 8px rgba(0,0,0, 0.4);
+  --layer5: 8px 16px 16px rgba(0,0,0, 0.8);
+
+  --blue-drop-close: 
+      drop-shadow(var(--blue-layer1))
+      drop-shadow(var(--blue-layer3));
+  --blue-drop-mid: 
+      drop-shadow(var(--blue-layer1))
+      drop-shadow(var(--blue-layer2))
+      drop-shadow(var(--blue-layer4));
+  --blue-drop-far: 
+      drop-shadow(var(--blue-layer1))
+      drop-shadow(var(--blue-layer2))
+      drop-shadow(var(--blue-layer3))
+      drop-shadow(var(--blue-layer4))
+      drop-shadow(var(--blue-layer5));
+
+  --black-drop-close: 
+      drop-shadow(var(--layer1))
+      drop-shadow(var(--layer3));
+  --black-drop-mid: 
+      drop-shadow(var(--layer1))
+      drop-shadow(var(--layer2))
+      drop-shadow(var(--layer4));
+  --black-drop-far: 
+      drop-shadow(var(--layer1))
+      drop-shadow(var(--layer2))
+      drop-shadow(var(--layer3))
+      drop-shadow(var(--layer4))
+      drop-shadow(var(--layer5));
 }
 
+.App {
+  font-family: 'PT Mono', monospace;
+  text-align: center;
+  margin: auto;
+  
+}
