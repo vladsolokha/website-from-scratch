@@ -10,7 +10,7 @@ function App() {
       <Header />
       <AboutMe />
       <Technologies />
-      {/* <Portfolio /> */}
+      <Portfolio />
     </div>
   );
 }

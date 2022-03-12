@@ -29,24 +29,24 @@ import {
 
 export default function Technologies() {
     const iconList = [
-        {name: 'JavaScript', component: Javascript}, 
-        {name: 'Python', component: Python}, 
-        {name: 'React JS', component: ReactJs},
-        {name: 'Node JS', component: Nodedotjs}, 
-        {name: 'HTML5', component: Html5}, 
-        {name: 'CSS', component: Csswizardry},
-        {name: 'SASS', component: Sass},
-        {name: 'Express Server', component: Express},
-        {name: 'Mongo DB', component: Mongodb},
-        {name: 'PostGre SQL', component: Postgresql},
-        {name: 'React Router', component: Reactrouter},
-        {name: 'Netlify', component: Netlify}, 
-        {name: 'Docker', component: Docker},
-        {name: 'Amazon AWS', component: Amazonaws},
-        {name: 'Google Cloud', component: Googlecloud},
-        {name: 'Git', component: Git},
-        {name: 'Apple', component: Apple},
-        {name: 'Linux', component: Linux}
+        {name: 'JavaScript', Component: Javascript}, 
+        {name: 'Python', Component: Python}, 
+        {name: 'React JS', Component: ReactJs},
+        {name: 'Node JS', Component: Nodedotjs}, 
+        {name: 'HTML5', Component: Html5}, 
+        {name: 'CSS', Component: Csswizardry},
+        {name: 'SASS', Component: Sass},
+        {name: 'Express Server', Component: Express},
+        {name: 'Mongo DB', Component: Mongodb},
+        {name: 'PostGre SQL', Component: Postgresql},
+        {name: 'React Router', Component: Reactrouter},
+        {name: 'Netlify', Component: Netlify}, 
+        {name: 'Docker', Component: Docker},
+        {name: 'Amazon AWS', Component: Amazonaws},
+        {name: 'Google Cloud', Component: Googlecloud},
+        {name: 'Git', Component: Git},
+        {name: 'Apple', Component: Apple},
+        {name: 'Linux', Component: Linux}
             
     ]
     const iconSize = 36
@@ -58,8 +58,8 @@ export default function Technologies() {
                 target='_blank'
                 rel="noreferrer"
                 title={`${Icon.name} Icon`}
-                href={`https://www.google.com/search?q=${Icon.name}`}>
-                    <Icon.component size={iconSize} title={`${Icon.name}`} />  
+                href={`https://www.google.com/search?q=${Icon.name}`}>          
+                    <Icon.Component size={iconSize} title={`${Icon.name}`} />  
                 </a>  
             </div>
         ))
