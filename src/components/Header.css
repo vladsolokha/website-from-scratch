@@ -8,6 +8,7 @@ h2 {
 
 .header {
     background: var(--high-blue);
+    padding-bottom: 15px;
 }
 
 .icon-name-container {

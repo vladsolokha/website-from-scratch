@@ -67,9 +67,15 @@ export default function Technologies() {
         
 
     return ( 
-        <div className='all-icons'>
-            <TechnologyIcons /> 
-        </div>        
+        <div className='technologies-container'>
+            <span className='tech-header'>
+                Technologies I Use
+            </span>
+            
+            <div className='all-icons'>
+                <TechnologyIcons /> 
+            </div>  
+        </div>      
     )
 }
 

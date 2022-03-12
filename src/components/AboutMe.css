@@ -1,11 +1,11 @@
 .main {
+    background-color: var(--orange-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
-    background-color: var(--orange-color);
-    padding: 30px
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .story, .more-story {
@@ -18,7 +18,7 @@
  /* This is the button that opens and closes the text */
 .more, .close-more {
     margin: auto;
-    max-width: 200px;
+    max-width: 70%;
     text-align: center;
 }
 
@@ -26,6 +26,5 @@
     text-decoration: underline;
     cursor: pointer;
 }
-
 
 
