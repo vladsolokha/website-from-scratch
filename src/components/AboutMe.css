@@ -4,21 +4,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .story, .more-story {
     justify-items: center;
     text-align: left;
-    margin:auto;
-    max-width: 70%;
 }
 
  /* This is the button that opens and closes the text */
 .more, .close-more {
-    margin: auto;
-    max-width: 70%;
     text-align: center;
 }
 

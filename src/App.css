@@ -63,3 +63,15 @@
     padding: 5px;
     margin-bottom: 1.25em;
 }
+
+@media screen and (min-width: 800px) {
+    .story, .more-story, .all-icons {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .story, .more-story, .all-icons {
+        max-width: 50%;
+    }
+}
