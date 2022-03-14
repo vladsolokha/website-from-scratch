@@ -1,3 +1,9 @@
 .portfolio-container {
-    margin-top: 20px;
+    background-color: var(--fish-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.placeholder {
+    margin: 20px;
 }

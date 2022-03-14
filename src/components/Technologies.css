@@ -1,3 +1,9 @@
+.technologies-container {
+    background-color: var(--pur-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .all-icons {
     display: flex;
     flex-direction: row;
@@ -7,6 +13,8 @@
     column-gap: 30px;
     row-gap: 30px;
     margin:auto;
-    margin-top: 20px;
-    max-width: 70%;   
+    max-width: 70%;  
+    padding-top: 20px; 
 }
+
+

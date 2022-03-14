@@ -7,13 +7,16 @@ export default function AboutMe() {
   
   return (
     <div className='main'>
+      <span className='tech-header'>
+        About
+      </span>
       <div className='story'>
         I'm a long time software enthusiast. I tried to quit and do something else like music or carpentry, but felt empty inside. Even though I still have a passion for making amazing music and even though there's a special place in my heart for home-made wood items, I ultimately needed to keep developing software for people. I couldn't let it go. I'm a self-starter and self-learner who devotes themselves to learn everything they can about React and its corresponding technologies to make web apps and websites. 
         <br/>
       </div>
       {isOpen ? (
         <div className='more' onClick={() => {setIsOpen(!isOpen)}}>
-          <div><br/>See more about me</div>
+          <div><br/>See more</div>
           <IoCaretDownCircleSharp />
         </div>
       ) : (
