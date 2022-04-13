@@ -1,12 +1,12 @@
 import React from 'react'
 import './Header.css'
-import MyEmoji from '../assets/vs-myemoji-head.gif'
+import MyEmoji from '../assets/vs-myemoji-head.jpg'
 import { Linkedin, Github, Gmail } from '@icons-pack/react-simple-icons'
 
 function Header() {
-  const linkedIn = <Linkedin title='LinkedIn Icon' size={42} />
-  const github =  <Github  title='Github Icon' size={42} />
-  const mail =  <Gmail  title='Gmail Icon' size={42} />
+  const linkedIn = <Linkedin title='LinkedIn Icon' size={42} color='white'/>
+  const github =  <Github  title='Github Icon' size={42} color='white'/>
+  const mail =  <Gmail  title='Gmail Icon' size={42} color='white'/>
   
   return (
     <div className="header">

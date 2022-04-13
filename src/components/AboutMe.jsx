@@ -20,10 +20,8 @@ export default function AboutMe() {
           <IoCaretDownCircleSharp />
         </div>
       ) : (
-        <div children='less'>
+        <div className='story'>
           <div className='more-story'>
-            <br/>
-            <u>More about Vlad</u>:
             <br/>
             He obtained his Bachelor of Chemistry degree in 2014 and Master of Teaching degree in science education in 2016. He started teaching high school chemistry and physics in 2014. In 2018, through much collaboration and management experience, he founded a computer science curriculum that introduced students to the world of technology and computer science, programming, game design, software development, and website creation. Presently, he still teaches web development, engineering, and computer science at the high school level, but is pursuing web-based app development as his next career. Vlad loves solving technical problems and challenges through mentoring, tutoring, and discussions. He hopes to start many software and technology-based businesses in his lifetime.
             <br/>
@@ -31,13 +29,13 @@ export default function AboutMe() {
             <u>My hobbies and interests include</u>: 
             being a great father and husband, building things with my hands and wood, renovating homes, relaxing in the hot tub and sauna, drinking coffee and tea with sweets, visiting small coffee shops, hiking and snowboarding, riding dirt bikes and 4 wheelers, producing music, audio engineering, playing guitar and drums, video games. 
             
-
-            <div className='close-more' onClick={() => {setIsOpen(!isOpen)}}>
-              <div><br/>Close</div>
-              <IoCaretUpCircleSharp />
-            </div>
-
           </div>
+
+          <div className='close-more' onClick={() => {setIsOpen(!isOpen)}}>
+            <div><br/>Close</div>
+            <IoCaretUpCircleSharp />
+          </div>
+
         </div>
       )}
     </div>

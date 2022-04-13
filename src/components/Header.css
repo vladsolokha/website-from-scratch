@@ -8,7 +8,9 @@ h2 {
 
 .header {
     background: var(--high-blue);
+    background-image: url('../assets/header-bg2.jpeg');
     padding-bottom: 15px;
+    color: white;
 }
 
 .icon-name-container {
