@@ -4,6 +4,24 @@
     padding-bottom: 20px;
 }
 
-.placeholder {
-    margin: 20px;
+.project-card-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+h3 {
+    margin: 5px;
+}
+
+.project-description {
+    text-align: left;
 }
